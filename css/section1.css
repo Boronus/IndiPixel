@@ -1,0 +1,45 @@
+.first-section {
+    magrin:0px;
+    padding: 0px;
+}
+
+.first-section .first-section-content{
+    padding: 161px 0px 0px 707px;
+    width:505px;
+}
+
+.first-section h1{
+    magrin:0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    line-height:36px;
+    font-family:'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: normal;
+    color:white;
+    text-transform: uppercase;
+    word-spacing:2px;
+}
+
+.first-section p{
+    font-family:'Montserrat-UltraLight', sans-serif;
+    font-size:18px;
+    padding-bottom: 26px;
+    font-weight: normal;
+    color:white;
+    border-bottom:#e94643 dashed 2px;
+}
+
+.first-section button{
+    width:165px;
+    height:53px;
+    margin:9px 5px 0px 0px;
+    border:none;
+    font-family:'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size:18px;
+    color:white;
+    border-radius: 6px;
+    background-color: #04e4a2;
+    float: right;
+}
