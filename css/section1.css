@@ -9,6 +9,7 @@
 .first-section .first-section-content{
     padding: 161px 0px 0px 707px;
     width:505px;
+    position:relative;
 }
 
 .first-section h1{
@@ -38,11 +39,25 @@
     height:53px;
     margin:9px 5px 0px 0px;
     border:none;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Montserrat-SemiBold', sans-serif;
     font-weight: normal;
     font-size:18px;
     color:white;
     border-radius: 6px;
     background-color: #04e4a2;
     float: right;
+}
+
+.first-section img {
+    position: absolute;
+}
+
+.first-section .disney-photo {
+    left: 191px;
+    top: 65px;
+}
+
+.first-section .lines {
+    left: -686px;
+    top: -367px;
 }
