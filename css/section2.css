@@ -1,0 +1,112 @@
+.second-section {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:396px;
+    background-color: lightgray;
+}
+
+.second-section .second-section-content{
+    padding: 10px 0px 0px 707px;
+    width:521px;
+    magrin:0px;
+    font-size: 0px;
+}
+
+.second-section h1{
+    font-family:'Montserrat-Light', sans-serif;
+    font-size:20px;
+    padding:6px 0px 0px 23px;
+    magrin-bottom:0px;
+    word-spacing:-1px;
+    line-height:20px;
+}
+
+.second-section .first-name {
+    width:208px;
+    height:46px;
+    margin:0px 21px 17px 0px;
+    padding:0px 19px;
+    border:black solid 2px; /*#e3f2fd*/
+    font-family:'Montserrat-Light', sans-serif;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+}
+
+.second-section .last-name {
+    width:182px;
+    height:46px;
+    margin:0px 0px 15px 0px;
+    padding:0px 32px;
+    border:black solid 2px; /*#e3f2fd*/
+    font-family:'Montserrat-Light', sans-serif;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+}
+
+.second-section .email-address {
+    width:208px;
+    height:46px;
+    margin:0px 21px 17px 0px;
+    padding:0px 19px;
+    border:black solid 2px; /*#e3f2fd*/
+    font-family:'Montserrat-Light', sans-serif;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+}
+
+.second-section select {
+    width:250px;
+    height:50px;
+    margin:0px;
+    padding:0px 32px;
+    background: transparent;
+    -webkit-appearance: none;
+    border:black solid 2px; /*#e3f2fd*/
+    font-family:'Montserrat-Light', sans-serif;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+}
+
+.new-select-arrow {
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+    width:230px;
+    height:50px;
+    background-image: url(../images/arrow.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.second-section textarea {
+    width:471px;
+    height:70px;
+    margin:0px;
+    padding:13px 22px;
+    letter-spacing: -0.5px;
+    border:black solid 2px; /*#e3f2fd*/
+    font-family:'Montserrat-Light', sans-serif;
+    font-weight: normal;
+    font-size:16px;
+    border-radius: 5px;
+    resize:none;
+}
+
+.second-section button{
+    width:119px;
+    height:45px;
+    margin:15px 0px 0px 0px;
+    border:none;
+    font-family:'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size:18px;
+    color:white;
+    border-radius: 6px;
+    background-color: #04e4a2;
+    float: right;
+}

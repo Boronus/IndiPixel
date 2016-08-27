@@ -1,6 +1,9 @@
 .first-section {
-    magrin:0px;
-    padding: 0px;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:583px;
+    background-color: #ef5350;
 }
 
 .first-section .first-section-content{
