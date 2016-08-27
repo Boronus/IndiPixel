@@ -6,7 +6,9 @@
 }
 
 .second-section .second-section-content{
-    padding: 10px 0px 0px 707px;
+    padding: 10px 0px 0px 0px;
+    margin-right:5px;
+    float:right;
     width:521px;
     magrin:0px;
     font-size: 0px;

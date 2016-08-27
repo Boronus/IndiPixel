@@ -7,25 +7,31 @@ footer {
 }
 
 footer .studio-name {
-    margin: 22px 0px 0px 190px;
+    margin: 22px 0px 0px 57px;
+    position:relative;
     display: inline-block;
     font-family:'Montserrat-Light', sans-serif;
     font-weight: normal;
-    font-size:15px;
+    font-size:16px;
+    letter-spacing: -0.5px;
+    wight: 150px;
 }
 
 footer .contact-email-block {
+    position:relative;
     display: inline-block;
-    position:absolute;
-    margin: 5px 0px 0px 340px;
+    float: right;
+    padding-right: 298px;
+
+    margin: 5px 0px 0px 0px;
     padding-left:50px;
     background-image: url(../images/mail.png);
     background-repeat: no-repeat;
     background-position: 4px 15px;
+
 }
 
 footer .contact-email {
-    /*float: right;*/
     font-family:'Montserrat-Light', sans-serif;
     font-weight: normal;
     font-size:16px;

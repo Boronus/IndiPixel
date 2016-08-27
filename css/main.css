@@ -38,5 +38,10 @@ body {
     background-color: white;
     padding:0px;
     margin:0px;
-    width:1366px;
+}
+
+.layout-positioner {
+    padding:0px;
+    width:1100px;
+    margin: 0px auto;
 }

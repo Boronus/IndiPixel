@@ -12,6 +12,12 @@
     background-color: #04e4a2;
 }
 
+.header-layout-positioner {
+    width:86%;
+    max-width:1200px;
+    margin:0px auto;
+}
+
 .contacts {
     padding:0px;
     margin:0px;
@@ -22,7 +28,7 @@
 
 .logo {
     display:inline-block;
-    magrin: 0px;
+    magrin: 0px 0px 0px 0px;
     padding:0px;
     font-size:0px;
     width:40%;
@@ -30,8 +36,8 @@
 
 .logo > .title {
     display:block;
-    magrin:0px;
-    padding:18px 0px 15px 227px;
+    magrin:0px 0px 0px 0px;
+    padding:18px 0px 15px 28%;
     margin-top:0px;
     margin-bottom:0px;
     text-transform: lowercase;
@@ -45,13 +51,13 @@
     display:inline-block;
     float: right;
     height:100%;
-    width:40%;
+    width:130px;
 }
 .contact-link .contact-link-button {
     display: inline-block;
     float: right;
     padding:27px 0px 1px 0px;
-    margin-right:90px;
+    margin-right:0px;
     border-bottom:#fdd835 solid 3px;
     font-family:'MyriadPro', sans-serif;
     text-transform: uppercase;
