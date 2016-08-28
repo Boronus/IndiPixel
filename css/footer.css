@@ -3,7 +3,6 @@ footer {
     margin:0px;
     width:100%;
     height:72px;
-    background-color: gray;
 }
 
 footer .studio-name {
@@ -15,6 +14,7 @@ footer .studio-name {
     font-size:16px;
     letter-spacing: -0.5px;
     wight: 150px;
+    color: #636363;
 }
 
 footer .contact-email-block {
@@ -35,4 +35,5 @@ footer .contact-email {
     font-family:'Montserrat-Light', sans-serif;
     font-weight: normal;
     font-size:16px;
+    color: #636363;
 }
