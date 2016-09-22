@@ -1,15 +1,11 @@
 .first-section {
-    width:100%;
-    height:583px;
     background-color: #ef5350;
 }
 
 .first-section .first-section-content{
     float:right;
-    padding: 161px 0px 0px 0px;
-    margin-right:2%;
+    margin: 160px 71px 129px 0px;
     width:505px;
-    position:relative;
 }
 
 .first-section h1{
@@ -32,28 +28,22 @@
 }
 
 .first-section button{
-    width:165px;
+    width:166px;
     height:53px;
     margin:9px 5px 0px 0px;
     border:none;
     font-weight: 400;
+    padding: 3px 0 0 6px;
     font-size:18px;
+    letter-spacing: 1px;
     color:white;
     border-radius: 6px;
     background-color: #04e4a2;
     float: right;
 }
 
-.first-section img {
-    position: absolute;
-}
-
 .first-section .disney-photo {
-    left: -515px;
-    top: 65px;
-}
-
-.first-section .lines {
-    left: -1393px;
-    top: -367px;
+    position: absolute;
+    z-index: 1;
+    margin: 64px 0 0 108px ;
 }
