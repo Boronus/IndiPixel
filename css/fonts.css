@@ -1,13 +1,4 @@
 @font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat-Bold.otf);
-    src: url(../fonts/Montserrat-Bold.ttf),
-    url(../fonts/Montserrat-Bold.woff),
-    url(../fonts/Montserrat-Bold.svg);
-    font-weight: bold;
-}
-
-@font-face {
     font-family: MyriadPro;
     src: url(../fonts/MyriadPro-Regular.ttf);
     src: url(../fonts/MyriadPro-Regular.ttf),
@@ -22,32 +13,41 @@
     src: url(../fonts/Montserrat-Regular.ttf),
     url(../fonts/Montserrat-Regular.woff),
     url(../fonts/Montserrat-Regular.svg);
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: Montserrat-UltraLight;
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Bold.otf);
+    src: url(../fonts/Montserrat-Bold.ttf),
+    url(../fonts/Montserrat-Bold.woff),
+    url(../fonts/Montserrat-Bold.svg);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Montserrat;
     src: url(../fonts/Montserrat-UltraLight.otf);
     src: url(../fonts/Montserrat-UltraLight.ttf),
     url(../fonts/Montserrat-UltraLight.woff),
     url(../fonts/Montserrat-UltraLight.svg);
-    font-weight: normal;
+    font-weight: 200;
 }
 
 @font-face {
-    font-family: Montserrat-Light;
+    font-family: Montserrat;
     src: url(../fonts/Montserrat-Light.otf);
     src: url(../fonts/Montserrat-Light.ttf),
     url(../fonts/Montserrat-Light.woff),
     url(../fonts/Montserrat-Light.svg);
-    font-weight: normal;
+    font-weight: 300;
 }
 
 @font-face {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat;
     src: url(../fonts/Montserrat-SemiBold.otf);
     src: url(../fonts/Montserrat-SemiBold.ttf),
     url(../fonts/Montserrat-SemiBold.woff),
     url(../fonts/Montserrat-SemiBold.svg);
-    font-weight: normal;
+    font-weight: 600;
 }

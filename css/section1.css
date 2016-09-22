@@ -1,6 +1,4 @@
 .first-section {
-    padding:0px;
-    margin:0px;
     width:100%;
     height:583px;
     background-color: #ef5350;
@@ -15,23 +13,20 @@
 }
 
 .first-section h1{
-    magrin:0px;
     margin-bottom: 0px;
     padding-bottom: 5px;
     line-height:36px;
-    font-family:'Montserrat', sans-serif;
     font-size:30px;
-    font-weight: normal;
+    font-weight: 400;
     color:white;
     text-transform: uppercase;
     word-spacing:2px;
 }
 
 .first-section p{
-    font-family:'Montserrat-UltraLight', sans-serif;
     font-size:18px;
     padding-bottom: 26px;
-    font-weight: normal;
+    font-weight: 200;
     color:white;
     border-bottom:#e94643 dashed 2px;
 }
@@ -41,8 +36,7 @@
     height:53px;
     margin:9px 5px 0px 0px;
     border:none;
-    font-family:'Montserrat-SemiBold', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size:18px;
     color:white;
     border-radius: 6px;
