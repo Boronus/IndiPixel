@@ -1,11 +1,10 @@
 footer {
-    height:72px;
     background-color: #fefcf2;
     flex: 0 0 auto;
 }
 
 footer .studio-name {
-    margin: 24px 0px 0px 108px;
+    margin: 24px 0px 24px 108px;
     position:relative;
     display: inline-block;
     letter-spacing: -0.5px;
@@ -15,7 +14,7 @@ footer .contact-email-block {
     position:relative;
     display: inline-block;
     float: right;
-    margin: 21px 353px 0px 0px;
+    margin: 21px 353px 21px 0px;
     padding: 3px 0;
     letter-spacing: -0.5px;
     padding-left:50px;
@@ -27,4 +26,40 @@ footer .contact-email-block {
 footer .contact-email-block a {
     text-decoration: none;
     color: #636363;
+}
+
+@media screen and (max-width: 900px) {
+    footer .contact-email-block {
+        float: none;
+        margin: 21px 0px 0px 60px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .contact-email-block{
+        margin: 15px 5%;
+        float: right;
+    }
+
+    footer .studio-name {
+        margin: 15px 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .contact-email-block,
+    footer .studio-name {
+        display: inline;
+        float: none;
+        line-height: 2.5;
+    }
+
+    footer .studio-name:after {
+        content: "\A";
+        white-space: pre;
+    }
 }
