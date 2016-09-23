@@ -2,69 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Fullstack Development, Test task">
+    <meta name="description" content="Тестовое задание Fullstrack Development для стажеров.">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>IndiPixel</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/section1.css" rel="stylesheet" type="text/css">
     <link href="css/section2.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
-    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
-    <title>IndiPixel</title>
 </head>
 <body>
-    <header>
-        <div class="top-line"></div>
-        <menu class="contacts">
-            <div class="header-layout-positioner">
-                <div class="logo">
-                    <p class="title">IndiPixel</p>
+    <div class="wrapper">
+        <div class="full-content">
+            <header>
+                <div class="layout-positioner">
+                    <p class="logo">IndiPixel</p>
+                    <a class="contact-link" href="mailto: contact@yourmail.com">contact us</a>
                 </div>
-                <div class="contact-link">
-                    <a class="contact-link-button">contact us</a>
+            </header>
+            <section class="first-section">
+                <div class="layout-positioner">
+                    <div class="first-section-content">
+                        <h1>We design and build beautiful web & mobile apps</h1>
+                        <p>
+                            You can design and create, and build the most
+                            wonderful place in the world. But it takes people to make the dream
+                            a reality. - Walt Disney
+                        </p>
+                        <button>KNOW MORE</button>
+                    </div>
+                    <img class="disney-photo" src="images/disney.png">
+                </div>
+            </section>
+            <section class="second-section">
+                <div class="layout-positioner">
+                    <div class="second-section-content">
+                        <img class="lines" src="images/lines.png">
+                        <h2>Lets Talk</h2>
+                        <form>
+                            <input class="first-name" type="text" value="First Name">
+                            <input class="last-name" type="text" value="Last Name">
+                            <input class="email-address" type="text" value="Email Address">
+                            <div class="new-select-arrow">
+                                <select size="1">
+                                    <option>App Design</option>
+                                    <option>Something Else</option>
+                                </select>
+                            </div>
+                            <textarea name="comment" cols="40" rows="3">Type your query here</textarea>
+                        </form>
+                        <button class="send">SEND</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="layout-positioner">
+                <p class="studio-name">© 2015 indipixel design</p>
+                <div class="contact-email-block">
+                    <a href="mailto: contact@yourmail.com">contact@yourmail.com</a>
                 </div>
             </div>
-        </menu>
-    </header>
-    <section class="first-section">
-        <div class="layout-positioner">
-            <div class="first-section-content">
-                <img class="lines" src="images/lines.png">
-                <img class="disney-photo" src="images/disney.png">
-                <h1>We design and build beautiful web & mobile apps</h1>
-                <p>
-                    You can design and create, and build the most
-                    wonderful place in the world. But it takes people to make the dream
-                    a reality. - Walt Disney
-                </p>
-                <button>KNOW MORE</button>
-            </div>
-        </div>
-    </section>
-    <section class="second-section">
-        <div class="layout-positioner">
-            <div class="second-section-content">
-                <h1>Lets Talk</h1>
-                <input class="first-name" type="text" value="First Name">
-                <input class="last-name" type="text" value="Last Name">
-                <input class="email-address" type="text" value="Email Address">
-                <div class="new-select-arrow">
-                    <select size="1">
-                        <option>App Desigh</option>
-                        <option>Something Else</option>
-                    </select>
-                </div>
-                <textarea name="comment" cols="40" rows="3">Type your query here</textarea>
-                <button>SEND</button>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="layout-positioner">
-            <p class="studio-name">© 2015 indipixel design</p>
-            <div class="contact-email-block">
-                <p class="contact-email">contact@yourmail.com</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>

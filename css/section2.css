@@ -1,120 +1,165 @@
 .second-section {
-    padding:0px;
-    margin:0px;
-    width:100%;
-    height:396px;
+    position: relative;
 }
 
 .second-section .second-section-content{
-    padding: 10px 0px 0px 0px;
-    margin-right:5px;
+    margin: 15px 55px 31px 55px;
     float:right;
     width:521px;
-    magrin:0px;
-    font-size: 0px;
 }
 
-.second-section h1{
-    font-family:'Montserrat-Light', sans-serif;
+@media screen and (max-width: 700px) {
+    .second-section .second-section-content {
+        float: none;
+        margin: 30px auto 80px auto;
+        width: 90%;
+    }
+}
+
+.second-section h2{
+    margin: 17px 0 16px 23px;
+    font-weight: 300;
     font-size:20px;
-    padding:6px 0px 0px 23px;
-    magrin-bottom:0px;
     word-spacing:-1px;
     line-height:20px;
     color: #ff9288;
 }
 
 .second-section .first-name {
-    width:208px;
-    height:46px;
-    margin:0px 21px 17px 0px;
-    padding:0px 19px;
+    box-sizing : border-box;
+    width:250px;
+    height:50px;
+    padding:0px 20px;
+    margin-bottom: 17px;
     border:#e3f2fd solid 2px;
-    font-family:'Montserrat-Light', sans-serif;
-    font-weight: normal;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
     font-size:16px;
     border-radius: 5px;
     color: #636363;
 }
 
 .second-section .last-name {
-    width:182px;
-    height:46px;
-    margin:0px 0px 15px 0px;
-    padding:0px 32px;
-    border:#e3f2fd solid 2px; /*#e3f2fd*/
-    font-family:'Montserrat-Light', sans-serif;
-    font-weight: normal;
+    box-sizing : border-box;
+    float:right;
+    width:250px;
+    height:50px;
+    padding:0px 33px;
+    margin-bottom: 17px;
+    border:#e3f2fd solid 2px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
     font-size:16px;
     border-radius: 5px;
     color: #636363;
 }
 
 .second-section .email-address {
-    width:208px;
-    height:46px;
-    margin:0px 21px 17px 0px;
-    padding:0px 19px;
-    border:#e3f2fd solid 2px; /*#e3f2fd*/
-    font-family:'Montserrat-Light', sans-serif;
-    font-weight: normal;
+    box-sizing : border-box;
+    width:250px;
+    height:50px;
+    padding:0px 20px;
+    margin-bottom: 17px;
+    border:#e3f2fd solid 2px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
     font-size:16px;
     border-radius: 5px;
     color: #636363;
 }
 
 .second-section select {
-    width:250px;
-    height:50px;
-    margin:0px;
-    padding:0px 32px;
+    box-sizing : border-box;
+    width:100%;
+    height:100%;
+    padding:0px 33px;
     background: transparent;
     -moz-appearance: none;
     -webkit-appearance: none;
-    border:#e3f2fd solid 2px; /*#e3f2fd*/
-    font-family:'Montserrat-Light', sans-serif;
-    font-weight: normal;
+    border:#e3f2fd solid 2px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
     font-size:16px;
     border-radius: 5px;
     color: #636363;
 }
 
 .new-select-arrow {
+    float:right;
     display:inline-block;
-    margin:0px;
-    padding:0px;
-    width:230px;
+    width:250px;
     height:50px;
+    margin-bottom: 17px;
     background-image: url(../images/arrow.png);
-    background-position: right;
+    background-position: 92% 50%;
     background-repeat: no-repeat;
 }
 
 .second-section textarea {
-    width:471px;
-    height:70px;
-    margin:0px;
+    box-sizing : border-box;
+    width:100%;
+    height:100px;
     padding:13px 22px;
     letter-spacing: -0.5px;
-    border:#e3f2fd solid 2px; /*#e3f2fd*/
-    font-family:'Montserrat-Light', sans-serif;
-    font-weight: normal;
+    border:#e3f2fd solid 2px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
     font-size:16px;
     border-radius: 5px;
     resize:none;
     color: #636363;
 }
 
-.second-section button{
+.second-section .send{
+    float: right;
     width:119px;
     height:45px;
-    margin:15px 0px 0px 0px;
+    margin-top:10px;
     border:none;
-    font-family:'Montserrat', sans-serif;
-    font-weight: normal;
+    font-weight: 600;
     font-size:18px;
     color:white;
-    border-radius: 6px;
+    border-radius: 8px;
     background-color: #ef5350;
-    float: right;
+}
+
+.second-section .lines {
+    position: absolute;
+    top: -951px;
+    left: calc(50vw - 1377px);
+}
+
+@media screen and (max-width: 1200px) {
+    .second-section .lines {
+        left: calc(100vw - 1986px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .second-section .lines {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .second-section .first-name,
+    .second-section .last-name,
+    .second-section .email-address {
+        float: none;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .second-section .new-select-arrow {
+        float: none;
+        width: 100%;
+    }
+
+    .second-section select {
+        padding: 0 20px;
+    }
+
+    .second-section textarea {
+        padding: 13px 20px;
+    }
 }

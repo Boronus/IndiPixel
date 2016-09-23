@@ -1,68 +1,32 @@
-
-.header {
-    padding:0px;
-    margin:0px;
-}
-
-.top-line{
-    padding:0px;
-    margin:0px;
-    width:100%;
-    height:21px;
-    background-color: #04e4a2;
-}
-
-.header-layout-positioner {
-    width:93%;
-    max-width:1200px;
-    margin:0px auto;
-}
-
-.contacts {
-    padding:0px;
-    margin:0px;
-    width:100%;
-    height:78px;
+header {
+    border-top: #04e4a2 solid 21px;
     background-color: #e94643;
+    color:white;
 }
 
 .logo {
     display:inline-block;
-    magrin: 0px 0px 0px 0px;
-    padding:0px;
-    font-size:0px;
-    width:40%;
+    margin: 16px 0 16px 12%;
+    text-transform: lowercase;
+    font-size:34px;
+    font-weight: 600;
 }
 
-.logo > .title {
-    display:block;
-    magrin:0px 0px 0px 0px;
-    padding:18px 0px 15px 28%;
-    margin-top:0px;
-    margin-bottom:0px;
-    text-transform: lowercase;
-    font-family:'Montserrat', sans-serif;
-    font-size:34px;
-    font-weight: bold;
-    color:white;
+@media screen and (max-width: 700px) {
+    .logo {
+        margin-left: 5%;
+    }
 }
 
 .contact-link {
-    display:inline-block;
-    float: right;
-    height:100%;
-    width:130px;
-}
-.contact-link .contact-link-button {
+    text-decoration: none;
+    color:white;
     display: inline-block;
+    margin: 28px 12px;
     float: right;
-    padding:27px 0px 1px 0px;
-    margin-right:0px;
     border-bottom:#fdd835 solid 3px;
     font-family:'MyriadPro', sans-serif;
     text-transform: uppercase;
-    font-size:17px;
+    font-size:16px;
     letter-spacing:2px;
-    text-underline: dash;
-    color:white;
 }
